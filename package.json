@@ -1,0 +1,41 @@
+{
+  "name": "@s2a/email-sender",
+  "version": "1.0.0",
+  "description": "email-sender is a module used to send email.",
+  "license": "UNLICENSED",
+  "keywords": [
+    "serverless",
+    "lambda",
+    "cloud functions",
+    "NodeMailer",
+    "emailSender",
+    "email-sender"
+  ],
+  "contributors": [
+    {
+      "name": "Khurram Ali",
+      "email": "info@riksof.com"
+    },
+    {
+      "name": "Awais Khan",
+      "email": "info@riksof.com"
+    },
+    {
+      "name": "Anas Ahmed",
+      "email": "info@riksof.com"
+    }
+  ],
+  "homepage": "https://s2a.io",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "nodemailer": "4.0.1",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "mocha-jsdom": "~1.1.0",
+    "chai": "^4.2.0",
+    "canvas": "^2.1.0"
+  }
+}

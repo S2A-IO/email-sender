@@ -14,18 +14,18 @@ npm install nodemailer nodemailer-smtp-transport --save
 ## Usage Example
 ```
 data.env = {
-service: 'SES', //sending email service
-host: 'smtp.ethereal.email', //host address
-port : 465,
-user : 'account.user', //hosted user account
-pass : 'account.pass' // hosted user password
+  service: 'SES', //sending email service
+  host: 'smtp.ethereal.email', //host address
+  port : 465,
+  user : 'account.user', //hosted user account
+  pass : 'account.pass' // hosted user password
 };
 data.current = {
-from : 'foo@example.com', //sender address
-to: 'bar@example.com, baz@example.com', // list of receivers
-subject: 'Hello ✔', // Subject line
-message: '<b>Hello world?</b>',
-isHtml : true
+  from : 'foo@example.com', //sender address
+  to: 'bar@example.com, baz@example.com', // list of receivers
+  subject: 'Hello ✔', // Subject line
+  message: '<b>Hello world?</b>',
+  isHtml : true
 };
 ```
 
@@ -35,6 +35,7 @@ isHtml : true
 | context      | Client context. Unused. | **YES** |
 | callback      | Callback function to pass back the response. | **YES** |
   ```
+const email = require('./../server/index');  
   email.handler(data, context, function testHandler ( error, res) {
     if ( error ) {
       console.log('error',error);

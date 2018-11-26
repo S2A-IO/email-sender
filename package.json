@@ -2,15 +2,22 @@
   "name": "@s2a/email-sender",
   "version": "1.0.0",
   "description": "email-sender is a module used to send email.",
-  "license": "UNLICENSED",
   "keywords": [
-    "serverless",
-    "lambda",
     "cloud functions",
     "NodeMailer",
     "emailSender",
     "email-sender"
   ],
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/S2A-IO/email-sender.git"
+  },
+  "scripts": {},
+  "author": {
+    "name": "RIKSOF (Private) Limited",
+    "email": "info@riksof.com"
+  },
   "contributors": [
     {
       "name": "Khurram Ali",
